@@ -24,7 +24,7 @@ int nthreads, tid;
 
   /* Obtain thread number */
   tid = omp_get_thread_num();
-  printf("Hello World from thread = %d\n", tid);
+  printf("Hello World from Pili = %d\n", tid);
 
   /* Only master thread does this */
   if (tid == 0) 
